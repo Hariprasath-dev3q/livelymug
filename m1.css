@@ -1,0 +1,254 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Space Grotesk", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 300;
+  	font-style: normal;
+  	word-spacing: 2px;
+  	letter-spacing: 5px;
+}
+
+/*Login Screen*/
+#logbackground{
+	 position: absolute;
+   right: 0;
+   bottom: 0;
+}
+
+#navcontainer{
+	width: 100%;
+	height: 90px;
+	background-color: black;
+}
+#logo{
+	float: left;
+}
+#srch{
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding: 15px;
+	border-radius: 10px;
+	width: 300px;
+}
+#srch:visited, #srch:hover
+{
+	box-shadow: 2px 2px 0px #ff0000;
+}
+#srchBtn{
+	float: left;
+	margin-top: 20px;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: white;
+}
+#srchBtn:hover{
+		border-color: #ff0000;
+		background-color: black;
+		color:#ff0000 ;	
+}
+#navmenu{
+	float: left;
+	margin:35px 0px 0 150px ;
+}
+li{
+	display: inline;
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+	transition: .5s;
+}
+
+a:hover{
+	color: #00eaff;
+	border-bottom: 2px solid #00eaff;
+	border-radius: 15px;
+}
+a{
+	transition-timing-function: linear;
+}
+
+#Logbtn
+{
+	float: right;
+	margin-top: 20px;
+	padding: 15px;
+	margin-right: 20px;
+	background-color: white;
+	font-weight: bold;
+	border-radius: 50px;
+}
+#Logbtn:hover{
+	background-color: #FF3131;
+	color: white;
+	box-shadow: 2px 2px 5px #FF3131;
+	border-color: #FF3131;
+}
+
+#mainContainer{
+	background-image: url("D:/SSCoffeeStore/cofbg.jpg");
+	height: 100vh;
+	background-size: cover;
+	position: relative;
+}
+
+#mainContent
+{
+	position: absolute;
+	color: white;
+	top: 300px;
+	left: 100px;
+	font-variant: small-caps;
+}
+
+#sec1
+{
+	width: 100%;
+	height: 1000px;
+	background-color: rgb(255, 255, 204, 1.0);
+}
+
+#secpara
+{
+	position: relative;
+}
+
+#secpara > p{
+	position: absolute;
+	top: 20px;
+	left: 500px;
+}
+
+#flex-container
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-flow: row wrap;
+	margin: auto;
+}
+
+#flex-container > div
+{
+	width: 300px;
+	height: 410px;
+	background-color: floralwhite;
+	position: relative;
+	margin: 10px;
+  	padding: 20px;
+}
+
+#grid{
+	position: absolute;
+	top: 70px;
+	left: 130px;
+	border-radius: 10px;
+	transition: .5s;
+	padding: 10px;
+	background-color: red;
+	
+}
+
+#grid:hover{
+	border: 3px solid lightblue;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 25px;
+}
+
+#img{
+	margin-left: 30px;
+	margin-top: 4px;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+#grid > p{
+	margin-left: 10px;
+	font-family: Arial Black;
+	word-spacing: 0;
+	letter-spacing: 0;
+	font-family: "Poiret One", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+}
+
+
+#foter{
+	width: 100%;
+	height: 350px;
+/*	background-color: rgb(193, 223, 240, 1.0); #2C2C54*/
+	background-color: #ECECEC;
+	position: relative;
+}
+
+#socialmedia{
+	position: absolute;
+	top: 50px;
+	left: 70px;
+}
+
+#socialmedia > p
+{
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+#contactcontainer
+{
+	position: absolute;
+	left: 650px;
+	top: 70px;
+} 
+
+#locationContainer
+{
+	position: absolute;
+	left: 650px;
+	top: 200px;
+}
+
+#enquire{
+	position: absolute;
+	left: 1150px;
+	top: 70px;
+}
+#emailinput
+{
+	position: absolute;
+	padding: 10px;
+	top: -10px;
+}
+
+#emailsubbtn{
+	position: absolute;
+	top: 50px;
+	padding: 10px;
+	left: 190px;
+	background-color: white;
+}
+#emailsubbtn:hover{
+	background-color: #81BFDA;
+	border-color: #81BFDA;
+	border-radius: 5px;
+}
+
+#copyright
+{
+	position: absolute;
+	background-color: #BCA37F;
+	color: #3F2305;
+	bottom: 0px;
+	width: 100%;
+	height: 40px;
+}
+
+#copyright > p{
+	position: absolute;
+	top: 10px;
+	left: 300px;
+}
